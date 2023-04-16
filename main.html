@@ -12,11 +12,14 @@
 </script>
 
 		<table border="1" cellspacing="0">
-	<tr>
+	<thead>
+		<tr>
 		<th>Roll numbers</th>
 		<th>Names</th>
 	</tr>
-	<tr>
+	</thead>		
+	<tbody>
+		<tr>
 		<td>1</td>
 		<td><a href="https://picsum.photos/id/123/200/300">https://picsum.photos/id/123/200/300</td>
 	</tr>
@@ -28,12 +31,29 @@
 		<td>3</td>
 		<td><a href="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg">http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg</td>
 	</tr>
+	</tbody>
+	
 </table>
 	<h2>List of medias</h2>
 	<ol>
 		<li><img src="https://picsum.photos/id/123/200/300" alt="img"></li>
-		<li><video src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" controls alt="vid"></li>
-		<li><audio src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" controls alt="id"></li>
+		<li><video controls
+    width="250"
+    height="200"
+    muted>
+    <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            type="video/webm">
+<!--     <source src="/media/cc0-videos/flower.mp4"
+            type="video/mp4">
+    Download the
+    <a href="/media/cc0-videos/flower.webm">WEBM</a>
+    or
+    <a href="/media/cc0-videos/flower.mp4">MP4</a>
+    video. -->
+</video></li>
+		<li><audio controls>
+			<source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg"  alt="id">
+		</audio> </li>
 	</ol>
 
 </body>
